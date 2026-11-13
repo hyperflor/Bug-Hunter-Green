@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Bug Hunter">
+  <defs>
+    <clipPath id="card"><rect width="1280" height="400" rx="28"/></clipPath>
+    <pattern id="small" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24,0 L0,0 0,24" fill="none" stroke="#cdebd6" stroke-width="1"/>
+    </pattern>
+    <pattern id="big" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M120,0 L0,0 0,120" fill="none" stroke="#a9dcb9" stroke-width="1.5"/>
+    </pattern>
+    <g id="bug">
+      <g stroke="#2f7a4d" stroke-width="2.5" stroke-linecap="round">
+        <line x1="-15" y1="-5" x2="15" y2="-5"/>
+        <line x1="-16" y1="3" x2="16" y2="3"/>
+        <line x1="-14" y1="11" x2="14" y2="11"/>
+        <line x1="-4" y1="-16" x2="-9" y2="-25"/>
+        <line x1="4" y1="-16" x2="9" y2="-25"/>
+      </g>
+      <ellipse cx="0" cy="3" rx="9" ry="13" fill="#2f7a4d"/>
+      <circle cx="0" cy="-13" r="6" fill="#2f7a4d"/>
+    </g>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="400" fill="#f3fbf5"/>
+    <rect width="1280" height="400" fill="url(#small)"/>
+    <rect width="1280" height="400" fill="url(#big)"/>
+    <line x1="72" y1="0" x2="72" y2="400" stroke="#ff8a8a" stroke-opacity="0.55" stroke-width="2"/>
+  </g>
+
+  <path d="M545,345 Q690,250 830,262" fill="none" stroke="#23a55a" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+  <use href="#bug" transform="translate(605 92) rotate(25) scale(0.9)" opacity="0.8"/>
+  <use href="#bug" transform="translate(520 352) rotate(-55) scale(0.75)" opacity="0.6"/>
+  <use href="#bug" transform="translate(1215 118) rotate(60) scale(0.85)" opacity="0.75"/>
+
+  <line x1="1050" y1="280" x2="1135" y2="365" stroke="#1f6f43" stroke-width="26" stroke-linecap="round"/>
+  <line x1="1088" y1="318" x2="1135" y2="365" stroke="#0f3d24" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="960" cy="190" r="125" fill="#ffffff" fill-opacity="0.8" stroke="#1f6f43" stroke-width="12"/>
+  <circle cx="960" cy="190" r="111" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <g transform="translate(763.4 43.4) scale(0.78)">
+    <g transform="rotate(40 285 150)">
+      <line x1="285" y1="222" x2="285" y2="330" stroke="#a8e6bc" stroke-width="26" stroke-linecap="round"/>
+      <ellipse cx="285" cy="150" rx="60" ry="80" fill="#23a55a"/>
+      <path d="M285,70 A60,80 0 0 0 285,230 Z" fill="#9fe3b3"/>
+    </g>
+  </g>
+  <path d="M880,120 A100,100 0 0 1 940,92" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-opacity="0.9"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="112" y="120" font-family="Consolas, 'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2" fill="#2f7a4d">CASE FILE #0001  ·  CLIENT-SIDE</text>
+    <text x="108" y="212" font-size="80" font-weight="900" letter-spacing="1" fill="#11331f">BUG HUNTER</text>
+    <text x="112" y="258" font-size="24" font-weight="600" font-style="italic" fill="#3c6b50">Carefully observant</text>
+    <g transform="rotate(-6 232 321)">
+      <rect x="112" y="296" width="240" height="50" rx="8" fill="#23a55a" fill-opacity="0.08" stroke="#23a55a" stroke-width="3"/>
+      <text x="232" y="330" font-size="22" font-weight="900" letter-spacing="6" text-anchor="middle" fill="#1f8a4c">SQUASHED</text>
+    </g>
+  </g>
+  <rect x="0.75" y="0.75" width="1278.5" height="398.5" rx="27.5" fill="none" stroke="#bfe6cb" stroke-width="1.5"/>
+</svg>
